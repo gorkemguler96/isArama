@@ -2,9 +2,39 @@ import {StyleSheet} from "react-native";
 
 export default StyleSheet.create({
     container:{
-        backgroundColor:"black"
+        flex:1,
+        padding:10,
+        margin:5,
+        borderRadius:7,
+        borderWidth:1,
+        borderColor:"#ece"
+    },
+    level:{
+        alignSelf:"flex-end",
+        paddingTop:20,
     },
     color:{
-        color:"white"
+        color:"red",
+        fontWeight:"bold",
+        fontSize:17
+    },
+    position:{
+        fontWeight:"bold",
+        fontSize:19,
+        paddingBottom:5
+    },
+    y:{
+        fontSize:16,
+        paddingBottom:5,
+    },
+    country:{
+        color:"white",
+        fontWeight:"bold"
+    },
+    countryView:{
+        backgroundColor:"red",
+        borderRadius:10,
+        padding:7,
+        width:150
     }
 })
